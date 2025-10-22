@@ -1,0 +1,11 @@
+Rater 1,Rater 2,Cohen's Kappa
+Our Evaluation,AQUSA Evaluation,0.5843
+Our Evaluation,OpenAIs GPT-5 Evaluation,0.5987
+Our Evaluation,Claude 4.5 Sonnet Evaluation,-0.0033
+Our Evaluation,Gemini 2.5 Flash Evaluation,0.5946
+AQUSA Evaluation,OpenAIs GPT-5 Evaluation,0.4518
+AQUSA Evaluation,Claude 4.5 Sonnet Evaluation,0.0003
+AQUSA Evaluation,Gemini 2.5 Flash Evaluation,0.4412
+OpenAIs GPT-5 Evaluation,Claude 4.5 Sonnet Evaluation,0.0166
+OpenAIs GPT-5 Evaluation,Gemini 2.5 Flash Evaluation,0.7981
+Claude 4.5 Sonnet Evaluation,Gemini 2.5 Flash Evaluation,0.0161

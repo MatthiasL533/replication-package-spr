@@ -1,0 +1,16 @@
+Rater 1,Rater 2,Cohen's Kappa
+Our Evaluation,AQUSA Evaluation,0.0909
+Our Evaluation,OpenAIs GPT-5 Evaluation,0.1085
+Our Evaluation,Claude 4.5 Sonnet Evaluation,0.0597
+Our Evaluation,Gemini 2.5 Flash Evaluation,0.031
+Our Evaluation,DeepSeek-V3.1 Evaluation,0.2172
+AQUSA Evaluation,OpenAIs GPT-5 Evaluation,-0.0481
+AQUSA Evaluation,Claude 4.5 Sonnet Evaluation,0.0213
+AQUSA Evaluation,Gemini 2.5 Flash Evaluation,-0.1016
+AQUSA Evaluation,DeepSeek-V3.1 Evaluation,0.1745
+OpenAIs GPT-5 Evaluation,Claude 4.5 Sonnet Evaluation,0.3088
+OpenAIs GPT-5 Evaluation,Gemini 2.5 Flash Evaluation,0.6075
+OpenAIs GPT-5 Evaluation,DeepSeek-V3.1 Evaluation,0.1602
+Claude 4.5 Sonnet Evaluation,Gemini 2.5 Flash Evaluation,0.3926
+Claude 4.5 Sonnet Evaluation,DeepSeek-V3.1 Evaluation,0.171
+Gemini 2.5 Flash Evaluation,DeepSeek-V3.1 Evaluation,0.0385
