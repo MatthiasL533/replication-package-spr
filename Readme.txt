@@ -22,7 +22,12 @@ A) Cohen’s Kappa agreement calculations
        - total_dataset_kappa_results_YYYYMMDD_HHMM.csv
      - cohenskappa.py
 
-B) Zip file of the AQUSA program
+B) Fleiss’ Kappa agreement calculations
+    - Folder: Fleiss Kappa Calculations/
+      - calculate_fleiss_kappa.py
+      - input data.csv
+
+C) Zip file of the AQUSA program
    - File: agusa-core.zip
    - When unzipped, main folder: agusa-core/
      - input/                                       # place source files for analysis
@@ -35,7 +40,7 @@ B) Zip file of the AQUSA program
      - LICENSE
      - corefiles/, .git/, .DS_Store
 
-C) Link to Google Spreadsheet (https://docs.google.com/spreadsheets/d/1i0oNQ61ctDdM08c_NrNVXtTSC15ataeHpTSNcX-D-n0/edit?usp=sharing)
+D) Link to Google Spreadsheet (https://docs.google.com/spreadsheets/d/1i0oNQ61ctDdM08c_NrNVXtTSC15ataeHpTSNcX-D-n0/edit?usp=sharing)
    - File: Link to Google Spreadsheet.rtf
    - Tabs available after opening the sheet:
      - Labeling Max
@@ -50,6 +55,7 @@ C) Link to Google Spreadsheet (https://docs.google.com/spreadsheets/d/1i0oNQ61ct
      - Results - Cohen's Kappa
      - CombinedEvaluation
 
+E) Readme.txt document
 
 ==================================================
 2. Explanation of the Google Sheets
@@ -133,3 +139,12 @@ Tabs and purpose:
    - Anthropic — Claude 4.5 Sonnet: https://claude.ai/new
    - Google — Gemini Flash: https://ai.google.dev/gemini-api/docs/models/gemini
    - DeepSeek — V3.1: https://www.deepseek.com/
+
+
+3.3 Fleiss’ Kappa calculation
+
+1) Go to the folder: cd "Fleiss Kappa Calculations"
+Ensure ratings.csv is present in the folder.
+
+2) Run:
+python calculate_fleiss_kappa.py
